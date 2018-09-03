@@ -334,6 +334,10 @@ input:-webkit-autofill:focus {
     top: 0;
 }
 
+.mainmenu-area.affix li a {
+    color: #024f28 !important;
+}
+
 .mainmenu-area.affix:before {
     opacity: 1;
 }
@@ -1426,4 +1430,17 @@ input:-webkit-autofill:focus {
     width: 100%;
     margin-top: 50px;
     display: inline-block;
+}
+
+.bottom_margin{
+    margin-bottom: 5%;
+}
+
+.clube-button{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.hover_button{
+    cursor: pointer;
 }
