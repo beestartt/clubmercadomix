@@ -1050,11 +1050,11 @@ input:-webkit-autofill:focus {
 }
 
 .preloader span {
-    background: rgb(72, 44, 191);
-    background: -webkit-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
-    background: -o-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
-    background: linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);
+    background: #024f2971;
+    background: -webkit-linear-gradient(45deg, rgb(6, 70, 11) 0%, rgba(118, 160, 130, 1) 100%);
+    background: -o-linear-gradient(45deg, rgb(6, 70, 11) 0%, rgba(118, 160, 130, 1) 100%);
+    background: linear-gradient(45deg, rgb(6, 70, 11) 0%, rgba(118, 160, 130, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006403', endColorstr='#669667', GradientType=1);
     border-radius: 100%;
     height: 60px;
     width: 60px;
@@ -1074,47 +1074,47 @@ input:-webkit-autofill:focus {
 
 @-webkit-keyframes mymove {
     0 {
-        -webkit-box-shadow: 0 0 0 0 rgba(94, 136, 252, 0.6), 0 0 0 0 rgba(94, 136, 252, 0.6);
-        box-shadow: 0 0 0 0 rgba(94, 136, 252, 0.6), 0 0 0 0 rgba(94, 136, 252, 0.6);
+        -webkit-box-shadow: 0 0 0 0 rgba(29, 99, 44, 0.6), 0 0 0 0 rgba(29, 99, 44, 0.6);
+        box-shadow: 0 0 0 0 rgba(29, 99, 44, 0.6), 0 0 0 0 rgba(29, 99, 44, 0.6);
     }
     25% {
-        -webkit-box-shadow: 0 0 0 10px rgba(94, 136, 252, 0.6), 0 0 0 10px rgba(94, 136, 252, 0.6);
-        box-shadow: 0 0 0 10px rgba(94, 136, 252, 0.6), 0 0 0 10px rgba(94, 136, 252, 0.6);
+        -webkit-box-shadow: 0 0 0 10px rgba(29, 99, 44, 0.6), 0 0 0 10px rgba(29, 99, 44, 0.6);
+        box-shadow: 0 0 0 10px rgba(29, 99, 44, 0.6), 0 0 0 10px rgba(29, 99, 44, 0.6);
     }
     50% {
-        -webkit-box-shadow: 0 0 0 10px rgba(94, 136, 252, 0.6), 0 0 0 20px rgba(94, 136, 252, 0.6);
-        box-shadow: 0 0 0 10px rgba(94, 136, 252, 0.6), 0 0 0 20px rgba(94, 136, 252, 0.6);
+        -webkit-box-shadow: 0 0 0 10px rgba(29, 99, 44, 0.6), 0 0 0 20px rgba(29, 99, 44, 0.6);
+        box-shadow: 0 0 0 10px rgba(29, 99, 44, 0.6), 0 0 0 20px rgba(29, 99, 44, 0.6);
     }
     75% {
-        -webkit-box-shadow: 0 0 0 10px rgba(94, 136, 252, 0.6), 0 0 0 10px rgba(94, 136, 252, 0.6);
-        box-shadow: 0 0 0 10px rgba(94, 136, 252, 0.6), 0 0 0 10px rgba(94, 136, 252, 0.6);
+        -webkit-box-shadow: 0 0 0 10px rgba(29, 99, 44, 0.6), 0 0 0 10px rgba(29, 99, 44, 0.6);
+        box-shadow: 0 0 0 10px rgba(29, 99, 44, 0.6), 0 0 0 10px rgba(29, 99, 44, 0.6);
     }
     100% {
-        -webkit-box-shadow: 0 0 0 0 rgba(94, 136, 252, 0.6), 0 0 0 0 rgba(94, 136, 252, 0.6);
-        box-shadow: 0 0 0 0 rgba(94, 136, 252, 0.6), 0 0 0 0 rgba(94, 136, 252, 0.6);
+        -webkit-box-shadow: 0 0 0 0 rgba(29, 99, 44, 0.6), 0 0 0 0 rgba(29, 99, 44, 0.6);
+        box-shadow: 0 0 0 0 rgba(29, 99, 44, 0.6), 0 0 0 0 rgba(29, 99, 44, 0.6);
     }
 }
 
 @keyframes mymove {
     0 {
-        -webkit-box-shadow: 0 0 0 0 rgba(94, 136, 252, 0.6), 0 0 0 0 rgba(94, 136, 252, 0.6);
-        box-shadow: 0 0 0 0 rgba(94, 136, 252, 0.6), 0 0 0 0 rgba(94, 136, 252, 0.6);
+        -webkit-box-shadow: 0 0 0 0 rgba(29, 99, 44, 0.6), 0 0 0 0 rgba(29, 99, 44, 0.6);
+        box-shadow: 0 0 0 0 rgba(29, 99, 44, 0.6), 0 0 0 0 rgba(29, 99, 44, 0.6);
     }
     25% {
-        -webkit-box-shadow: 0 0 0 10px rgba(94, 136, 252, 0.6), 0 0 0 10px rgba(94, 136, 252, 0.6);
-        box-shadow: 0 0 0 10px rgba(94, 136, 252, 0.6), 0 0 0 10px rgba(94, 136, 252, 0.6);
+        -webkit-box-shadow: 0 0 0 10px rgba(29, 99, 44, 0.6), 0 0 0 10px rgba(29, 99, 44, 0.6);
+        box-shadow: 0 0 0 10px rgba(29, 99, 44, 0.6), 0 0 0 10px rgba(29, 99, 44, 0.6);
     }
     50% {
-        -webkit-box-shadow: 0 0 0 10px rgba(94, 136, 252, 0.6), 0 0 0 20px rgba(94, 136, 252, 0.6);
-        box-shadow: 0 0 0 10px rgba(94, 136, 252, 0.6), 0 0 0 20px rgba(94, 136, 252, 0.6);
+        -webkit-box-shadow: 0 0 0 10px rgba(29, 99, 44, 0.6), 0 0 0 20px rgba(29, 99, 44, 0.6);
+        box-shadow: 0 0 0 10px rgba(29, 99, 44, 0.6), 0 0 0 20px rgba(29, 99, 44, 0.6);
     }
     75% {
-        -webkit-box-shadow: 0 0 0 10px rgba(94, 136, 252, 0.6), 0 0 0 10px rgba(94, 136, 252, 0.6);
-        box-shadow: 0 0 0 10px rgba(94, 136, 252, 0.6), 0 0 0 10px rgba(94, 136, 252, 0.6);
+        -webkit-box-shadow: 0 0 0 10px rgba(29, 99, 44, 0.6), 0 0 0 10px rgba(29, 99, 44, 0.6);
+        box-shadow: 0 0 0 10px rgba(29, 99, 44, 0.6), 0 0 0 10px rgba(29, 99, 44, 0.6);
     }
     100% {
-        -webkit-box-shadow: 0 0 0 0 rgba(94, 136, 252, 0.6), 0 0 0 0 rgba(94, 136, 252, 0.6);
-        box-shadow: 0 0 0 0 rgba(94, 136, 252, 0.6), 0 0 0 0 rgba(94, 136, 252, 0.6);
+        -webkit-box-shadow: 0 0 0 0 rgba(29, 99, 44, 0.6), 0 0 0 0 rgba(29, 99, 44, 0.6);
+        box-shadow: 0 0 0 0 rgba(29, 99, 44, 0.6), 0 0 0 0 rgba(29, 99, 44, 0.6);
     }
 }
 
@@ -1443,4 +1443,16 @@ input:-webkit-autofill:focus {
 
 .hover_button{
     cursor: pointer;
+}
+
+.icon-bar{
+    background-color:#024f28 !important;
+}
+
+.navbar-toggle{
+    border-color:#024f28 !important;
+}
+
+.navbar-collapse{
+    background-color:#024f2971 !important;
 }
