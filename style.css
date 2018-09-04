@@ -1453,6 +1453,8 @@ input:-webkit-autofill:focus {
     border-color:#024f28 !important;
 }
 
-.navbar-collapse{
-    background-color:#024f2971 !important;
+@media screen and (max-width: 500px) {
+    .navbar-collapse{
+        background-color:#024f2971 !important;
+    }
 }
